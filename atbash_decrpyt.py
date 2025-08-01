@@ -10,3 +10,9 @@ def atbash_decrypt(ciphertext):
             result += char
     
     return result
+
+    if __name__ == "__main__" :
+        ciphertext = input("Enter Atbash cipher text: ")
+        plaintext = atbash_decrypt(ciphertext)
+        print("\nDecrypt massage: ")
+        print(plaintext)
